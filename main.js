@@ -109,7 +109,7 @@ async function main() {
       console.error("Failed to send jackpot SOL");
       return;
     }
-    console.log(`✅ Jackpot Sent Tx: ${txInfo.explorerUrl}`);
+    console.log(`Jackpot Sent Tx: ${txInfo.explorerUrl}`);
 
     const solSent = txInfo.lamportsSent / 1e9;
 
